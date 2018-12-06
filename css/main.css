@@ -6,6 +6,11 @@ html {
   box-sizing: inherit;
 }
 
+ul li {
+  display: flex;
+  width: 33.3333%;
+}
+
 body {
   font-family: Merriweather, serif;
   line-height: 1.5;
@@ -37,29 +42,19 @@ h1 {
   padding: .5rem 0;
 }
 
-
-
-
-
-
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-ul li {
-  display: flex;
-  width: 33.3333%;
-}
 
 a {
   text-decoration: none;
   text-align: center;
+  border: 1px solid #a63f38;
   color: #fff;
   font-size: 1.125rem;
-  border: 1px solid #a63f38;
   width: 100%;
   padding: .4rem 0;
 }
